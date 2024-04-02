@@ -1,0 +1,171 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Running a search",
+    "line": 1,
+    "id": "running-a-search",
+    "tags": [],
+    "uri": "search.feature",
+    "elements": [
+      {
+        "id": "running-a-search;run-search",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "run search",
+        "tags": [],
+        "type": "scenario",
+        "steps": []
+      },
+      {
+        "id": "running-a-search;searching-multiple-things",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Searching multiple things",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "duckduckgo.com is currently open",
+            "result": {
+              "status": "passed",
+              "duration": 1075000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "entering a search for \"Testing\"",
+            "result": {
+              "status": "passed",
+              "duration": 340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "click the search button",
+            "result": {
+              "status": "passed",
+              "duration": 4955000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the results for the search will be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 471000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "running-a-search;searching-multiple-things",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Searching multiple things",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "duckduckgo.com is currently open",
+            "result": {
+              "status": "passed",
+              "duration": 450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "entering a search for \"Automation\"",
+            "result": {
+              "status": "passed",
+              "duration": 378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "click the search button",
+            "result": {
+              "status": "passed",
+              "duration": 4611000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the results for the search will be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 551000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "running-a-search;searching-multiple-things",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Searching multiple things",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "duckduckgo.com is currently open",
+            "result": {
+              "status": "passed",
+              "duration": 478000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "entering a search for \"Test cases\"",
+            "result": {
+              "status": "passed",
+              "duration": 419000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "click the search button",
+            "result": {
+              "status": "passed",
+              "duration": 3647000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the results for the search will be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 483000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "firsttest",
+    "line": 1,
+    "id": "firsttest",
+    "tags": [],
+    "uri": "test.feature",
+    "elements": [
+      {
+        "id": "firsttest;visiting-the-frontpage",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "visiting the frontpage",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 3,
+            "name": "I visit duckduckgo.com",
+            "result": {
+              "status": "passed",
+              "duration": 1130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "I should see a search bar",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
