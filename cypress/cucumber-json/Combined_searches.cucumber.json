@@ -1,0 +1,198 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Running searches",
+    "line": 1,
+    "id": "running-searches",
+    "tags": [],
+    "uri": "Combined_searches.feature",
+    "elements": [
+      {
+        "id": "running-searches;visiting-the-frontpage",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "visiting the frontpage",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 3,
+            "name": "I visit duckduckgo.com",
+            "result": {
+              "status": "passed",
+              "duration": 1794000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "I should see a search bar",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "running-searches;run-searches",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "run searches",
+        "tags": [],
+        "type": "scenario",
+        "steps": []
+      },
+      {
+        "id": "running-searches;searching-multiple-things",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Searching multiple things",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "duckduckgo.com is currently open",
+            "result": {
+              "status": "passed",
+              "duration": 686000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "entering a search for \"Testing\"",
+            "result": {
+              "status": "passed",
+              "duration": 360000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "click the search button",
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: The following error originated from your application code, not from Cypress.\n\n  > e.target.querySelectorAll is not a function\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n    at e (https://duckduckgo.com/dist/wpm.main.e42d5fa4f5783d18a3ef.js:1:127160)\nFrom previous event:\n    at CommandQueue.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:173473:21)\n    at CommandQueue.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:159873:15)\n    at $Cy.runQueue (https://duckduckgo.com/__cypress/runner/cypress_runner.js:160796:14)\n    at cy.<computed> [as then] (https://duckduckgo.com/__cypress/runner/cypress_runner.js:160891:12)\n    at __stackReplacementMarker (https://duckduckgo.com/__cypress/runner/cypress_runner.js:160305:13)\n    at runnable.fn (https://duckduckgo.com/__cypress/runner/cypress_runner.js:161070:19)\n    at callFn (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114440:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114427:7)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:168059:30\nFrom previous event:\n    at Object.onRunnableRun (https://duckduckgo.com/__cypress/runner/cypress_runner.js:168042:53)\n    at $Cypress.action (https://duckduckgo.com/__cypress/runner/cypress_runner.js:157260:28)\n    at Runnable.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:166040:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://duckduckgo.com/__cypress/runner/cypress_runner.js:115099:10)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:115225:12\n    at next (https://duckduckgo.com/__cypress/runner/cypress_runner.js:115008:14)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:115018:7\n    at next (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114920:14)\n    at Hook.<anonymous> (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114981:7)\n    at next (https://duckduckgo.com/__cypress/runner/cypress_runner.js:167953:24)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:167980:13\nFrom previous event:\n    at onNext (https://duckduckgo.com/__cypress/runner/cypress_runner.js:167977:59)\n    at done (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114380:5)\n    at callFn (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114463:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114427:7)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:168059:30\nFrom previous event:\n    at Object.onRunnableRun (https://duckduckgo.com/__cypress/runner/cypress_runner.js:168042:53)\n    at $Cypress.action (https://duckduckgo.com/__cypress/runner/cypress_runner.js:157260:28)\n    at Runnable.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:166040:13)\n    at next (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114942:10)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:114986:5\n    at timeslice (https://duckduckgo.com/__cypress/runner/cypress_runner.js:108912:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the results for the search will be displayed",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "running-searches;searching-multiple-things",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Searching multiple things",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "duckduckgo.com is currently open",
+            "result": {
+              "status": "passed",
+              "duration": 1328000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "entering a search for \"Automation\"",
+            "result": {
+              "status": "passed",
+              "duration": 416000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "click the search button",
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: The following error originated from your application code, not from Cypress.\n\n  > e.target.querySelectorAll is not a function\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n    at e (https://duckduckgo.com/dist/wpm.main.e42d5fa4f5783d18a3ef.js:1:127160)\nFrom previous event:\n    at CommandQueue.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:173473:21)\n    at CommandQueue.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:159873:15)\n    at $Cy.runQueue (https://duckduckgo.com/__cypress/runner/cypress_runner.js:160796:14)\n    at cy.<computed> [as then] (https://duckduckgo.com/__cypress/runner/cypress_runner.js:160891:12)\n    at __stackReplacementMarker (https://duckduckgo.com/__cypress/runner/cypress_runner.js:160305:13)\n    at runnable.fn (https://duckduckgo.com/__cypress/runner/cypress_runner.js:161070:19)\n    at callFn (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114440:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114427:7)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:168059:30\nFrom previous event:\n    at Object.onRunnableRun (https://duckduckgo.com/__cypress/runner/cypress_runner.js:168042:53)\n    at $Cypress.action (https://duckduckgo.com/__cypress/runner/cypress_runner.js:157260:28)\n    at Runnable.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:166040:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://duckduckgo.com/__cypress/runner/cypress_runner.js:115099:10)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:115225:12\n    at next (https://duckduckgo.com/__cypress/runner/cypress_runner.js:115008:14)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:115018:7\n    at next (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114920:14)\n    at Hook.<anonymous> (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114981:7)\n    at next (https://duckduckgo.com/__cypress/runner/cypress_runner.js:167953:24)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:167980:13\nFrom previous event:\n    at onNext (https://duckduckgo.com/__cypress/runner/cypress_runner.js:167977:59)\n    at done (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114380:5)\n    at callFn (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114463:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114427:7)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:168059:30\nFrom previous event:\n    at Object.onRunnableRun (https://duckduckgo.com/__cypress/runner/cypress_runner.js:168042:53)\n    at $Cypress.action (https://duckduckgo.com/__cypress/runner/cypress_runner.js:157260:28)\n    at Runnable.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:166040:13)\n    at next (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114942:10)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:114986:5\n    at timeslice (https://duckduckgo.com/__cypress/runner/cypress_runner.js:108912:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the results for the search will be displayed",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "running-searches;searching-multiple-things",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Searching multiple things",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "duckduckgo.com is currently open",
+            "result": {
+              "status": "passed",
+              "duration": 1244000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "entering a search for \"Test cases\"",
+            "result": {
+              "status": "passed",
+              "duration": 434000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "click the search button",
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: The following error originated from your application code, not from Cypress.\n\n  > e.target.querySelectorAll is not a function\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n    at e (https://duckduckgo.com/dist/wpm.main.e42d5fa4f5783d18a3ef.js:1:127160)\nFrom previous event:\n    at CommandQueue.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:173473:21)\n    at CommandQueue.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:159873:15)\n    at $Cy.runQueue (https://duckduckgo.com/__cypress/runner/cypress_runner.js:160796:14)\n    at cy.<computed> [as then] (https://duckduckgo.com/__cypress/runner/cypress_runner.js:160891:12)\n    at __stackReplacementMarker (https://duckduckgo.com/__cypress/runner/cypress_runner.js:160305:13)\n    at runnable.fn (https://duckduckgo.com/__cypress/runner/cypress_runner.js:161070:19)\n    at callFn (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114440:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114427:7)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:168059:30\nFrom previous event:\n    at Object.onRunnableRun (https://duckduckgo.com/__cypress/runner/cypress_runner.js:168042:53)\n    at $Cypress.action (https://duckduckgo.com/__cypress/runner/cypress_runner.js:157260:28)\n    at Runnable.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:166040:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://duckduckgo.com/__cypress/runner/cypress_runner.js:115099:10)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:115225:12\n    at next (https://duckduckgo.com/__cypress/runner/cypress_runner.js:115008:14)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:115018:7\n    at next (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114920:14)\n    at Hook.<anonymous> (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114981:7)\n    at next (https://duckduckgo.com/__cypress/runner/cypress_runner.js:167953:24)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:167980:13\nFrom previous event:\n    at onNext (https://duckduckgo.com/__cypress/runner/cypress_runner.js:167977:59)\n    at done (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114380:5)\n    at callFn (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114463:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114427:7)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:168059:30\nFrom previous event:\n    at Object.onRunnableRun (https://duckduckgo.com/__cypress/runner/cypress_runner.js:168042:53)\n    at $Cypress.action (https://duckduckgo.com/__cypress/runner/cypress_runner.js:157260:28)\n    at Runnable.run (https://duckduckgo.com/__cypress/runner/cypress_runner.js:166040:13)\n    at next (https://duckduckgo.com/__cypress/runner/cypress_runner.js:114942:10)\n    at https://duckduckgo.com/__cypress/runner/cypress_runner.js:114986:5\n    at timeslice (https://duckduckgo.com/__cypress/runner/cypress_runner.js:108912:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the results for the search will be displayed",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Navigating the duck duck go site",
+    "line": 1,
+    "id": "navigating-the-duck-duck-go-site",
+    "tags": [],
+    "uri": "Navigation2.feature",
+    "elements": [
+      {
+        "id": "navigating-the-duck-duck-go-site;click-the-logo-on-about-page-to-go-back-to-main-page",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Click the logo on about page to go back to main page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the duckduckgo.com about site is currently open",
+            "result": {
+              "status": "passed",
+              "duration": 1262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the logo is clicked",
+            "result": {
+              "status": "passed",
+              "duration": 556000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the duckduckgo main page should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

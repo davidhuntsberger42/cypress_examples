@@ -1,7 +1,7 @@
 import { Given, When, And, Then, Scenario } from "cypress-cucumber-preprocessor/steps";
 
-Scenario('visiting the frontpage', () => {
-When("I visit duckduckgo.com", () => {
+//Scenario('visiting the frontpage', () => {
+  When("I visit duckduckgo.com", () => {
     cy.visit("https://www.duckduckgo.com");
   });
   
@@ -11,10 +11,10 @@ When("I visit duckduckgo.com", () => {
       "placeholder",
       "Search the web without being tracked";
   });
-});
+//});
 
 
-Scenario('run searches', () => {
+//Scenario('run searches', () => {
 Given("duckduckgo.com is currently open", () => {
     cy.visit("https://www.duckduckgo.com");
   });
@@ -32,4 +32,4 @@ And("click the search button", () => {
 Then("the results for the search will be displayed", () => {
     cy.visit("https://www.duckduckgo.com"); 
 });
-});
+//});

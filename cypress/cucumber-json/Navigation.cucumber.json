@@ -1,0 +1,122 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Navigating the duck duck go site",
+    "line": 1,
+    "id": "navigating-the-duck-duck-go-site",
+    "tags": [],
+    "uri": "Navigation.feature",
+    "elements": [
+      {
+        "id": "navigating-the-duck-duck-go-site;visiting-the-frontpage-and-navigating",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Visiting the frontpage and navigating",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 3,
+            "name": "I visit duckduckgo.com",
+            "result": {
+              "status": "passed",
+              "duration": 1208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "I should see the logo",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigating-the-duck-duck-go-site;click-the-logo-to-go-to-about-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Click the logo to go to about page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "duckduckgo.com is currently open",
+            "result": {
+              "status": "passed",
+              "duration": 594000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the logo is clicked",
+            "result": {
+              "status": "passed",
+              "duration": 1245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the duckduckgo about page should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigating-the-duck-duck-go-site;click-the-logo-on-about-page-to-go-back-to-main-page",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Click the logo on about page to go back to main page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "duckduckgo.com about is currently open",
+            "result": {
+              "status": "passed",
+              "duration": 572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the logo is clicked",
+            "result": {
+              "status": "passed",
+              "duration": 409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the duckduckgo main page should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

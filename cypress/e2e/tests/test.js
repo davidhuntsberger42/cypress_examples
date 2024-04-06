@@ -11,4 +11,3 @@ import { When, Then } from "cypress-cucumber-preprocessor/steps";
       "Search the web without being tracked"
     ;
   });
-  //test
